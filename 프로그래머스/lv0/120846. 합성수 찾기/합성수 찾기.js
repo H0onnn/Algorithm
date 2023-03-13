@@ -3,7 +3,7 @@ function solution(n) {
     
     for (let i = 1; i <= n; i++) {
         let cnt = 0;
-        for (let j = 0; j <= i; j++) {
+        for (let j = 1; j <= i; j++) {
             if (i % j === 0) {
                 cnt += 1;
             }
